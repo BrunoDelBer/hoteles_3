@@ -1,0 +1,75 @@
+.jumbotron{
+    background-image: url("imagenes/verduras.jpeg");
+    color: white;
+    margin: 50px 0px 10px 0px;
+    padding: 50px 0px 25px 0px;
+    border-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+#bread{
+    margin: 20px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
+}
+
+.fila{
+    margin: 20px 0px 50px 0px;
+    border: 20px 0px 25px 0px;
+    padding: 10px 10px 10px 10px;
+    border-bottom-color: black;
+    
+}
+.cartas{
+    margin: 50px 0px 30px 0px;
+    border: 25px 0px 10px 0px;
+}
+
+.info{
+    margin: 0 10px 0 10px;
+}
+
+footer{
+    padding: 10px 10px 0 10px;
+    background-color: aquamarine;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.verdura{
+    flex: 1 150px;
+    
+}
+
+.imagenCarta{
+    width: auto;
+    height: 250px;
+}
+
+
+
+.boton_compra{
+    background-color: green;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+
+.fotter_iconos{
+    padding-right: 15px;
+}
+
+
+.form_comentario{
+    margin: 10px 0px 5px 0px;
+}
+
+.boton_form{
+    margin: 10px 0px 5px 0px;
+}
+
+.tabla{
+    margin: 20px 2px 20px 2px;
+}
+

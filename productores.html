@@ -1,0 +1,151 @@
+ <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap demo</title>
+
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    
+   
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Verduras</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="./ubicacion.html">Ubicación</a></li>
+            <li class="nav-item active"><a class="nav-link" href="./productores.html">Productores</a></li>
+            <li class="nav-item"><a class="nav-link" href="./terminos.html">Terminos y Condiciones</a></li>
+            <li class="nav-item"><a class="nav-link" href="./contactos.html">contactos</a></li>
+        </ul>
+    </div>
+    </nav>
+
+     <div class="jumbotron">
+        <h1>Verduleria "El paisa" </h1>
+    </div>
+    
+            <nav id="bread" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Productores</li>
+                </ol>
+            </nav>
+
+        <div class="container text-center d-flex flex-wrap">
+
+            
+            
+            <div class="table-responsive tabla">
+                <table class="table table-striped">
+                    <thead>
+                        <tr class="table-dark">
+                            <th>Calificación</th>
+                            <th>Provedor</th>
+                            <th>Ubicación</th>
+                            <th>Precio de Envio</th>
+                            <th>Mayoreo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="oi oi-star"></span>
+                                <span class="oi oi-star"></span>
+                                <span class="oi oi-star"></span>
+                                <span class="oi ni-star"></span>
+                                <span class="oi ni-star"></span>
+                            </td>
+                            <td>Rancho Las Petras</td>
+                            <td> Abasolo,Guanajuato</td>
+                            <td>$100</td>
+                            <td> Si </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="oi oi-star"></span>
+                                <span class="oi oi-star"></span>
+                                <span class="oi oi-star"></span>
+                                <span class="oi oi-star"></span>
+                                <span class="oi oi-star"></span>
+                            </td>
+                            <td>Los Tres Alegres Comprades</td>
+                            <td>Tacambaro, Michoacán</td>
+                            <td>$250</td>
+                            <td> no </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="oi oi-star"></span>
+                                <span class="oi oi-star"></span>
+                                <span class="oi oi-star"></span>
+                                <span class="oi oi-star"></span>
+                                <span class="oi ni-star"></span>
+                            </td>
+                            <td>Pedros Panchos</td>
+                            <td>xonacatlan,Estado de México</td>
+                            <td>$350</td>
+                            <td> Si </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="oi oi-star"></span>
+                                <span class="oi oi-star"></span>
+                                <span class="oi ni-star"></span>
+                                <span class="oi ni-star"></span>
+                                <span class="oi ni-star"></span>
+                            </td>
+                            <td>Pio Farms</td>
+                            <td>Tamaulipas</td>
+                            <td>$500</td>
+                            <td> Si </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+
+
+
+
+        </div>
+
+        <footer>
+            <div class="row justify-content-md-center">
+                <div class="col-sm-4 d-flex flex-column align-items-baseline"> 
+                    <a href="https://www.facebook.com">Facebook</a>
+                    <a href="https://twitter.com">Twitter</a>
+                    <a href="https://www.instagram.com">Instagram</a>
+                    <a href="https://www.youtube.com">Youtube</a>
+            </div>
+                <div class="col-sm-4 d-flex flex-column align-items-end " > 
+                    <address>
+                        <h3>Encuentranos en</h3>
+                        <p><span class="oi oi-home fotter_iconos"></span>Avenida Revolución No. 16945, Mexico D.F</p>
+                        <p><span class="oi oi-phone fotter_iconos"></span>Numero: 998877556611</p>
+                        <p><span class="oi oi-envelope-closed fotter_iconos"></span>contactos@verduras.com</p>
+                    </address>
+                </div>
+                <div class="col-sm-4 d-flex flex-column align-items-xl-end align-items-lg-end align-items-md-start align-items-sm-start"> 
+                    <a href="about.html">Nosotros</a>
+                    <a href="ubicacion.html">Ubicanos</a>
+                    <a href="terminos.html">Terminos y Condiciones</a>   
+                </div>
+            </div>
+        </footer>
+
+    <script src="node_modules/jquery/dist/jquery.min.js" ></script>
+    <script src="node_modules/popper.js/dist/popper-utils.min.js" ></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" ></script>
+  </body>
+</html>
