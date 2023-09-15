@@ -43,81 +43,114 @@
                 </ol>
             </nav>
 
-        <div class="container text-center d-flex flex-wrap">
+            <div class="text-center tabs_1">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Compara</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Tarjeta</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">Comentarios</button>
+                    </li>
+                  </ul>
+            </div>
+             <!-- Nav tabs -->
+             
 
+            <div class="container text-center d-flex flex-wrap"></div> 
             
-            
-            <div class="table-responsive tabla">
-                <table class="table table-striped">
-                    <thead>
-                        <tr class="table-dark">
-                            <th>Calificación</th>
-                            <th>Provedor</th>
-                            <th>Ubicación</th>
-                            <th>Precio de Envio</th>
-                            <th>Mayoreo</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                                <span class="oi ni-star"></span>
-                                <span class="oi ni-star"></span>
-                            </td>
-                            <td>Rancho Las Petras</td>
-                            <td> Abasolo,Guanajuato</td>
-                            <td>$100</td>
-                            <td> Si </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                            </td>
-                            <td>Los Tres Alegres Comprades</td>
-                            <td>Tacambaro, Michoacán</td>
-                            <td>$250</td>
-                            <td> no </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                                <span class="oi ni-star"></span>
-                            </td>
-                            <td>Pedros Panchos</td>
-                            <td>xonacatlan,Estado de México</td>
-                            <td>$350</td>
-                            <td> Si </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                                <span class="oi ni-star"></span>
-                                <span class="oi ni-star"></span>
-                                <span class="oi ni-star"></span>
-                            </td>
-                            <td>Pio Farms</td>
-                            <td>Tamaulipas</td>
-                            <td>$500</td>
-                            <td> Si </td>
-                        </tr>
-                    </tbody>
-                </table>
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab"> 
+                <div class="table-responsive tabla">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr class="table-dark">
+                                <th>Calificación</th>
+                                <th>Provedor</th>
+                                <th>Ubicación</th>
+                                <th>Precio de Envio</th>
+                                <th>Mayoreo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi ni-star"></span>
+                                    <span class="oi ni-star"></span>
+                                </td>
+                                <td>Rancho Las Petras</td>
+                                <td> Abasolo,Guanajuato</td>
+                                <td>$100</td>
+                                <td> Si </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                </td>
+                                <td>Los Tres Alegres Comprades</td>
+                                <td>Tacambaro, Michoacán</td>
+                                <td>$250</td>
+                                <td> no </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi ni-star"></span>
+                                </td>
+                                <td>Pedros Panchos</td>
+                                <td>xonacatlan,Estado de México</td>
+                                <td>$350</td>
+                                <td> Si </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi ni-star"></span>
+                                    <span class="oi ni-star"></span>
+                                    <span class="oi ni-star"></span>
+                                </td>
+                                <td>Pio Farms</td>
+                                <td>Tamaulipas</td>
+                                <td>$500</td>
+                                <td> Si </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+              </div>
+              <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab"> 
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header" style="color: crimson;">
+                      Metodos de pago
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Tartjetas</li>
+                      <li class="list-group-item">Paypal</li>
+                      <li class="list-group-item">Efectivo</li>
+                    </ul>
+                  </div>
+              </div>
+              <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab"> Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit. Nihil, magnam! Maxime soluta, deserunt in illo iure iste excepturi 
+                unde vitae exercitationem voluptates minima officiis, possimus adipisci alias eos, molestias reprehenderit. </div>
             </div>
             
-
-
-
-
+            
+            
+            
         </div>
 
         <footer>
